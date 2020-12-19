@@ -15,6 +15,22 @@
     padding: 20px;
     display: inline-block;
 }
+.heroCard {
+    padding:20px;
+    margin: 50px;
+}
+.caseContent1 {
+    padding:20px;
+    margin: 50px;
+}
+.caseStudy2 {
+    padding:20px;
+    margin: 50px;
+}
+.caseStudy3 {
+    padding:20px;
+    margin: 50px;
+}
 .hfButton {
     background-color: #222222;
     height: 128px;
@@ -23,19 +39,26 @@
     font-size: 40px;
     font-family: "copperplate";
     border: none;
-    display: inline-block;
-    padding: 15px;
+    padding: 0px;
+    float: right;
     text-align: center;
 }
 .cardTitle {
     color: #DDDDDD;
     font-size: 70px;
     font-family: "copperplate";
+    padding:1px;
+    margin:35px 40px;
+}
+.myName {
+    text-align: right;
 }
 .pStyle {
     color: #DDDDDD;
     font-size: 32px;
     font-family: "Roboto";
+    padding: 1px;
+    margin: 100px;
 }
 .button {
     height: 237px;
@@ -44,10 +67,11 @@
     border: none;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 40px;
     color: #222222;
     font-family: "copperplate";
+    display: inline-block;
+    margin:12px;
 }
 .heroButton1 {
     background-color: #FC6969;
@@ -60,3 +84,21 @@
 .heroButton3 {
     background-color: #8475D5;
     }
+
+ #Me {
+     float: left;
+     margin: 20px;
+ }
+ #img_Case1 {
+    float:right;
+    margin: 20px;
+     
+ }
+#img_Case2 {
+    float: left;
+    margin: 20px;
+}   
+#img_Case3 {
+    float: right;
+    margin: 20px;
+}
